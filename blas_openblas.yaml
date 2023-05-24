@@ -1,0 +1,19 @@
+name: blas_openblas
+channels:
+  - conda-forge
+dependencies:
+  ## Python Core
+  - python=3.10
+  - pip
+
+  ## BLAS
+  - blas=*=openblas
+  
+
+  ## Conda Python pkgs
+  - numpy
+  - scipy
+  - scipy-tests
+  - pip:
+      - pytest
+      - hypothesis

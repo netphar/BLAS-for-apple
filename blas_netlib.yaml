@@ -1,0 +1,19 @@
+name: blas_netlib
+channels:
+  - conda-forge
+dependencies:
+  ## Python Core
+  - python=3.10
+  - pip
+
+  ## BLAS
+  - blas=*=netlib
+  
+
+  ## Conda Python pkgs
+  - numpy
+  - scipy
+  - scipy-tests
+  - pip:
+      - pytest
+      - hypothesis

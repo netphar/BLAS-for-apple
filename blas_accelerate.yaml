@@ -1,0 +1,25 @@
+name: blas_accelerate
+channels:
+  - conda-forge
+dependencies:
+  ## Python Core
+  - python=3.10
+  - pip
+
+  ## BLAS
+  - blas=*=accelerate
+
+  ## Conda Python pkgs
+  - numpy
+  - pandas
+  - matplotlib
+  - rdkit
+  - jupyterlab
+  - ipywidgets
+  - scikit-learn
+  - seaborn
+  - scipy
+  - scipy-tests
+  - pip:
+      - pytest
+      - hypothesis
