@@ -1,5 +1,5 @@
 # BLAS-for-apple
-tested 3 different flavours of numpy compiled for m1 processer with openblas, accelerate and netlib. Vanilla numpy available on conda-forge is compiled for openblal, it is a safe choice. Apple's accelerate is blazing fast, but numerically unstable, at least until macos 13.3
+tested 3 different flavours of BLAS libs (```openblas, accelerate and netlib```) using numpy and scipy compiled for m1 processer available on conda forge. Vanilla numpy using ```openblas``` is a safe choice. Apple's ```accelerate``` is blazing fast, but numerically unstable.
 
 **apple’s accelerate ```blas=*=accelerate```**
 
